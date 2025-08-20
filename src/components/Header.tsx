@@ -23,6 +23,7 @@ export default function Header() {
               display: "flex",
               alignItems: "center",
               backgroundColor: "#ffff",
+              padding: 0,
             }}
           >
             <p className="userName">{user?.username}</p>
