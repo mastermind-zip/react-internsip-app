@@ -1,0 +1,99 @@
+.header {
+  border-bottom: 0.5px solid #474747;
+}
+
+.wrapper {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.headerTitle {
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+}
+
+.userName {
+  font-size: 15px;
+  color: #5c80bc;
+  margin-right: 5px;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.signInBtn {
+  border: none;
+  align-self: center;
+  min-width: 6rem;
+  background-color: #5c80bc;
+  color: #ffff;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 10px;
+  border-radius: 11px;
+}
+
+.container {
+  max-width: 70rem;
+
+  margin: 0 auto;
+  padding: 70px;
+}
+.main {
+  display: grid;
+  grid-template-columns: repeat(4, 0.25fr);
+  gap: 50px;
+}
+
+.cardContainer {
+  padding: 1rem 1.5rem;
+  box-shadow: -1px 4px 9px -2px #9796a3;
+  border-radius: 11px;
+}
+
+.cardImg {
+  width: 100%;
+}
+
+.cardTitle {
+  font-size: 17px;
+  font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.cardDescription {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.sign-in-form {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 15px 30px;
+  background-color: #88a7dd;
+  color: #ffff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.user-name-input {
+  padding: 15px 10px;
+  border-radius: 15px;
+  border: none;
+}
+
+.btn-submit {
+  background-color: #ffff;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+}
