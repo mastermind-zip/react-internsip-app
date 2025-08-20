@@ -1,13 +1,31 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Этот проект представляет собой приложение React, созданное с использованием **TypeScript**, **Redux Toolkit** и **React Router DOM**.  
+Оно извлекает данные из [JSONPlaceholder API](https://jsonplaceholder.typicode.com/) и включает логику аутентификации.
 
-Currently, two official plugins are available:
+## 🚀 Давайте начнем
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1. Клонируйте этот репозиторий.
+```bash
+https://github.com/mastermind-zip/react-internsip-app.git
+```
+### 2. Установите зависимости (dependencies)
+```bash
+npm install
+```
+### 3. Запустите сервер разработки
+```bash
+npm run dev
+```
+### 4. Структура проека
+* `src/components/` ➡️ 🎨 Reusable UI components (e.g., Header, Cards)
+* `src/pages/` ➡️ 📄 Page-level components (e.g., Home, About, SignIn)
+* `src/redux/` ➡️ 📦 Redux Toolkit store, slices, and API logic
+* `src/App.tsx` ➡️ 🚀 Main app entry with routes
+* `src/index.tsx` ➡️ 🔌 React entry point
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Author: Zarina. 
+Telegram: @zar1nok
+
 # react-internsip-app
